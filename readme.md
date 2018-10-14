@@ -9,8 +9,13 @@ https://github.com/nats-io/java-nats-streaming
     <version>2.1.0</version>
 </dependency>
 ```
+#### Run NATS streaming server
+```sh
+docker run -p 4222:4222 -p 8222:8222 haritkumar/nats-streaming-server
+```
 
-#### http://localhost:8222/connz
+#### Management console 
+http://localhost:8222/connz
 
 ```json
 {
